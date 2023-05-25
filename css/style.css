@@ -274,7 +274,7 @@ body{
 
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
-  
+
   .services-title{
     font-size: 1rem;
     font-weight: bold;
@@ -283,6 +283,13 @@ body{
     font-size: .88rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  #home{
+    background: url('../img/cover.jpg') no-repeat fixed center / cover;
+  }
+}
+
 @media screen and (max-width: 380px) {
   .services-p{
     font-size: .96rem;
