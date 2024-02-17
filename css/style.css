@@ -26,7 +26,14 @@ body{
 #home{
   width: 100%;
   height: 100vh;
-  background: url('../img/cover.jpg') no-repeat fixed 100% 100% / 100% 100%!important;
+  /*background: url('../img/cover.jpg') no-repeat fixed 100% 100% / 100% 100%!important;
+*/
+  background: url("../img/cover.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 }
 
 .navbar{
